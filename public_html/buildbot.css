@@ -1,0 +1,76 @@
+body {
+  background: white;
+  font-size: 12px;
+}
+
+hr {display:none;}
+
+table {
+  background: white;
+  border: 5px solid white;
+  margin-bottom: 1em;
+  margin: 0 auto;
+  border-spacing: 4px;
+}
+
+table td {
+  font-size: 13px;
+  padding: 3px 6px;
+  margin: 10px;
+}
+
+tr {
+
+}
+
+.Event, .BuildStep, .Activity, .Change, .Time, .Builder, .LastBuild {
+  border: 1px solid;
+}
+
+.Change, .Time, .Event {
+  background: #E0E0E0;
+}
+
+td a {
+  color: #081E75;
+}
+
+.success {
+  background: #8f8;
+}
+
+.running, .start {
+  background: #ff8;
+}
+
+.building {
+  background: #ff8;
+}
+
+.failure {
+  background: #f88;
+}
+
+.failure a {
+  color: #fcc;
+}
+
+.warnings {
+  background: #fdc470;
+}
+
+.offline {
+  color: #000000;
+  background: #f88;
+}
+
+.idle {
+  color: #888;
+  background: #f8f8f8;
+}
+
+.footer {
+  padding: 3px 6px;
+  margin-top: 20px;
+  line-height: 1.4em;
+}
